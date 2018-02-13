@@ -6,7 +6,11 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
  
-
+/**
+ * break with the World db in MySql
+ * @author Slobodan
+ *
+ */
 public class SuperSimpleStuff {
 	public static java.sql.Statement stmt = null;
 	public static ResultSet rs = null;

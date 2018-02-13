@@ -3,9 +3,13 @@ package following.lecture;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-
+/*import java.sql.SQLException;
+import java.sql.Statement;*/
+/**
+ * Warm up
+ * Before I started following the lecture.
+ */
+/*
 public class FirstProject {
 
 	public static java.sql.Statement stmt = null;
@@ -27,6 +31,12 @@ public class FirstProject {
 			    	int idPregled = rs.getInt("idPregled");
 			    	int usluga_idUsluga = rs.getInt("Usluga_idUsluga");
 			    	int veterinar_idVeterinar = rs.getInt("Veterinar_idVeterinar");
+			    	String vremeOd = rs.getString("vremeOd");
+			    	String vremeDo = rs.getString("vremeDo");
+			    	int zauzet = rs.getInt("zauzet");
+			    	
+			    	System.out.println(" idPregled: " + idPregled +  " usluga_idUsluga: " + usluga_idUsluga + " veterinar_idVeterinar: " + veterinar_idVeterinar +
+			    			" vremeOd: "+ vremeOd + " vremeDo:  " + vremeDo + " zauzet: " + zauzet);
 			    	
 			    }
 			}
@@ -39,4 +49,4 @@ public class FirstProject {
 			 
 
 }
-}
+}*/
